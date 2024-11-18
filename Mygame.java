@@ -120,11 +120,11 @@ public class Mygame extends JFrame implements ActionListener {
         int name = Integer.parseInt(nameStr.trim()); // String to Integer..
         if (gameChances[name] == 2) {
             if (activePlayer == 1) {
-                currentButton.setIcon(new ImageIcon("/C://Users//Hp//Desktop//Screenshot 2024-09-10 131540.png"));
+                currentButton.setIcon(new ImageIcon("C:/Users/Hp/Pictures/Screenshots/Screenshot 2024-09-10 131540.png"));
                 gameChances[name] = activePlayer;
                 activePlayer = 0;
             } else {
-                currentButton.setIcon(new ImageIcon("C:/Users/Hp/Desktop/Screenshot 2024-09-10 131227.png"));
+                currentButton.setIcon(new ImageIcon("C:/Users/Hp/Pictures/Screenshots/Screenshot 2024-11-18 181417.png"));
                 gameChances[name] = activePlayer;
                 activePlayer = 1;
             }
